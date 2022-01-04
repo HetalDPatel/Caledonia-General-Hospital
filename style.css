@@ -1,0 +1,276 @@
+/* StAuth10244: I Hetal Patel, 000821900 certify that this material is my original work. 
+No other person's work has been used without due acknowledgement. 
+I have not made my work available to anyone else."*/
+*{          
+    box-sizing: border-box;
+    
+    
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:rgba(236, 234, 234, 0.541);
+}
+/*header*/
+header{
+    height:600px;
+    background-color:rgba(236, 234, 234, 0.541);
+}
+.hos_logo_name{
+    height:22%;
+}
+.row{
+    text-align: center;
+    
+}
+.col-xl-3,.col-xl-6{
+    height: 100%;
+}
+.col-xl-6>h2{
+    margin-top:25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    color:rgb(12, 173, 146)
+}
+.col-xl-6>h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+
+}
+.col-xl-3>.number{
+    float: right;
+    text-align: start;
+    margin-top: 45px;
+}
+.col_img{
+    margin-top: 30px;
+}
+
+.number>h4{
+    color:red;  
+}
+#emg{
+    width:280px;
+}
+
+.navbar{
+        height:10%;
+        background-image: linear-gradient(179deg, #64bcce 40%, #02A8F9 100%);
+}
+.nav-item{
+    position: relative;
+    overflow: hidden;
+    display: flex; 
+}
+.nav-item a{
+    position: relative;
+    color:rgba(252, 249, 249, 0.541);
+    text-align: center;
+    padding: 10px 15px 40px 10px ;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#search_form{    
+    margin-left:auto;
+}
+.carousel_container{
+    height:380px;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Main Body*/
+.main_container{
+    background-color:rgba(236, 234, 234, 0.541);
+
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+      background-color:rgba(236, 234, 234, 0.541);
+}
+#card-holder{
+    margin:8%;
+    border:1px dashed red;
+}
+.card_holder{
+   margin:8%;
+}
+
+
+    /* Footer*/
+    footer{    
+    border:2px solid black;
+    background-image: linear-gradient(179deg, #64bcce 40%, #02A8F9 100%);
+    }
+    .row_table{
+        height:250px;
+    }
+    .table thead,tbody{
+        color:rgb(12, 173, 146);
+    }
+    thead .first{
+        text-align: end;
+        font-size:25pt;
+        font-weight: 800;
+    }
+    tbody .first1{
+        text-align: end;
+        font-size:20pt;
+        font-weight: 200;
+    }
+    .second{
+        text-align: end; 
+        font-weight: 600;               
+    }
+    .second1{
+        text-align: end; 
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    #row_disclaimer{
+        height:150px;
+        background-color: white;
+    }
+    .disclaimer{
+        display: flex;
+    }
+    .content{
+        float: right;
+        text-align: start;              
+        font-size: 12pt;   
+        margin-top: 45px;     
+        word-wrap: break-word;
+    }
+    .copyright{
+        font-size: 12pt; 
+        text-align: center;
+        color:white;
+        }
+    .copyright p{
+        margin-top: 5%;
+    }
+
+@media only screen and (max-width: 720px) { 
+
+    .nav-item{
+        flex-direction: column;
+    }
+    .col-xl-6>h2{
+        font-size: 20px;
+    }
+    .col-xl-6>h5{
+        font-size: 10px;
+    }
+
+    .navbar{
+        height:auto;
+        width: 100%;
+        margin: 0;
+    }
+    .navbar-nav {        
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item a{
+        border-bottom:1px solid white;
+        border-top:1px solid white;
+        margin: 0;
+        padding: 0;
+        color:white;
+    }
+    .carousel_container{
+        height:50%;
+        width:100%;
+        margin: auto;
+    }
+    .form-control{
+        display: none;
+    }
+
+    .col_img{
+        height:30%;
+        width: 30%;
+    }
+    
+    .number>h4{
+        color:red;  
+        font-size: 10pt;
+    }
+    #emg{
+        display: none;
+    }
+    thead .first{
+        text-align: end;
+        font-size:15pt;
+        font-weight: 800;
+    }
+    tbody .first1{
+        text-align: end;
+        font-size:10pt;
+        font-weight: 200;
+    }
+    .second,.second1{
+        text-align: end;
+        font-size:10pt;
+    }
+    #row_disclaimer{
+        display: none;
+    }
+    #search_form{
+        
+        display: none;
+    }
+
+    .copyright{
+        font-size: 8pt; 
+        text-align: center;
+        color:white;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 900px) { 
+
+ 
+    .col-xl-6>h2{
+        font-size: 20px;
+    }
+    .col-xl-6>h5{
+        font-size: 10px;
+    }
+    .navbar-nav{
+        margin: 0;
+        padding: 0;
+
+    }
+    .nav-item a{
+        color:white;
+        font-size: 10px;
+    }
+    .carousel_container{
+        height:50%;
+        width:100%;
+        margin: auto;
+    }
+
+    .col_img{
+        height:30%;
+        width: 30%;
+    }
+    
+    .number>h4{
+        color:red;  
+        font-size: 10pt;
+    }
+    #emg{
+        display: none;
+    }
+    #row_disclaimer{
+        display: none;
+    }
+}
+
